@@ -1,6 +1,9 @@
 # This workflow will build a Swift project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
 
+- name: SwiftTest by SwiftActions
+  uses: SwiftActions/SwiftTest@0.2
+
 name: Swift
 
 on:
